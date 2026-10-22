@@ -35,3 +35,12 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# macOS metadata
+.DS_Store
+
+# Local secrets and uploaded files
+.env
+.env.*
+!.env.example
+uploads/
